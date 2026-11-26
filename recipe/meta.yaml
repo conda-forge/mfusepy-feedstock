@@ -1,13 +1,13 @@
 {% set name = "mfusepy" %}
-{% set version = "3.1.1" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 338ece54513d7d1a5e9492837679a0c7432ecf96a03490a2683a1ce1d19570e1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 5e149ef4ce22516996fce232251da7569c2b6bfd9e28b10a7503eae59d88b0d3
 
 build:
   number: 0
